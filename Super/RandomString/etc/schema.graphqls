@@ -1,0 +1,15 @@
+#Magento Customer GraphQl Schema
+
+type Query {
+    randomstring: RandomString
+        @resolver(class: "Super\\RandomString\\Model\\Resolver\\Customer")
+        @doc(description: "The randomstring query returns customer information and a custom string")
+}
+
+type RandomString @doc(description: "RandomString defines a custom string") {
+    entity_id: Int
+    firstname: String
+    lastname: String
+    email: String
+    random_string: String
+}
