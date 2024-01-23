@@ -17,11 +17,6 @@ class Tab extends \Magento\Framework\View\Element\Template
         parent::__construct($context);
     }
 
-    public function sayHello()
-    {
-        return __('Hello World');
-    }
-
     public function getRandomCollection(){
         $post = $this->_randomFactory->create();
         return $post->getCollection();

@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="super_randomstring" frontName="super_randomstring">
-            <module name="Super_RandomString" before="Magento_Backend" />
+            <module name="Super_RandomString"/>
         </route>
     </router>
 </config>

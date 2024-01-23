@@ -2,7 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Super_RandomString::super" title="Super" module="Super_RandomString" sortOrder="55" resource="Super_RandomString::randomstring"/>
-        <add id="Super_RandomString::configuration" title="Configuration" module="Super_RandomString" sortOrder="99" parent="Super_RandomString::super" action="adminhtml/system_config/edit/section/randomstring" resource="Super_RandomString::randomstring_configuration"/>
+        <add id="Super_RandomString::super" title="Super" module="Super_RandomString" sortOrder="55" resource="Sper_RandomString::randomstring"/>
+        <add id="Super_RandomString::grid" title="Grid" module="Super_RandomString" sortOrder="15" action="super_randomstring/grid" resource="Super_RandomString::randomstring" parent="Super_RandomString::super"/>
+        <add id="Super_RandomString::configuration" title="Configuration" module="Super_RandomString" sortOrder="99" resource="Super_RandomString::randomstring_configuration" parent="Super_RandomString::super" action="adminhtml/system_config/edit/section/randomstring"/>
     </menu>
 </config>

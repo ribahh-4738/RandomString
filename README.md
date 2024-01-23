@@ -40,7 +40,7 @@ roni_cost3@example.com
 
 Se possuir outro usuário **Customer**, efetue login com este, do contrário criar customer - no **Front-end**, em **Create Account** no menu superior ou /customer/account na URL.
 
-Instale o [Altair GraphQL Client](https://chromewebstore.google.com/detail/flnheeellpciglgpaodhkhmapeljopja) se não o tiver instalado e faça a seguinte requisição na [URL do magento]/graphql/ método GET para gerar a **random string**
+Instale o [Altair GraphQL Client](https://chromewebstore.google.com/detail/flnheeellpciglgpaodhkhmapeljopja) se não o tiver instalado e faça a seguinte requisição na URL_DO_MAGENTO/graphql/ método GET para gerar a **random string**
 
 ```graphql
 query {
