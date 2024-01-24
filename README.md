@@ -74,8 +74,11 @@ No **Front-end** com usuário **Customer** logado, em **My Account** selecione  
 
 ## Admin 
 
-...
+No **Admin**, no menu à esquerda, selecione **Super**, **Grid** para visualizar uma listagem das **Random Strings**.
 
-![](./3-Admin-Configuration.png)
+![](./3-Grid-Magento-Admin.png)
 
-...
+No **Admin**, no menu à esquerda, selecione **Super**, **Confugration** para visualizar um painel de configuração do módulo.
+
+![](./4-Admin-Configuration.png)
+
