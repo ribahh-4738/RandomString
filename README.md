@@ -82,3 +82,7 @@ No **Admin**, no menu à esquerda, selecione **Super**, **Configuration** para v
 
 ![](./4-Admin-Configuration.png)
 
+## Teste Unitário
+
+Um teste unitário foi criado para validar o retorno da API GraphQL: `Super/RandomString/Test/GraphQl/RandomTest.php`
+
