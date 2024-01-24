@@ -68,7 +68,7 @@ query {
 
 ## My Account
 
-No **Front-end** com usuário **Customer** logado, em **My Account** selecione  **Random Strings** no menu à esquerda.
+No **Front-end** com o usuário **Customer** logado, em **My Account** selecione **Random Strings** no menu à esquerda.
 
 ![](./2-My-Account.png)
 
@@ -78,7 +78,7 @@ No **Admin**, no menu à esquerda, selecione **Super**, **Grid** para visualizar
 
 ![](./3-Grid-Magento-Admin.png)
 
-No **Admin**, no menu à esquerda, selecione **Super**, **Confugration** para visualizar um painel de configuração do módulo.
+No **Admin**, no menu à esquerda, selecione **Super**, **Configuration** para visualizar um painel de configuração do módulo.
 
 ![](./4-Admin-Configuration.png)
 
